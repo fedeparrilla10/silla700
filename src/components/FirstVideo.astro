@@ -1,0 +1,69 @@
+---
+import LongSection from './LongSection.astro';
+---
+
+<LongSection>
+  <article
+    slot="main"
+    class="flex flex-col xl:flex-row items-center justify-center py-10 lg:py-5"
+  >
+    <div class="flex flex-col justify-center items-center gap-10 lg:gap-20">
+      <div class="flex flex-col lg:flex-row justify-around items-center gap-3">
+        <video
+          loop
+          autoplay
+          muted
+          playsinline
+          src="/silla675/iluminacion.mp4"
+          class="w:1/2 md:w-4/5 lg:w-1/3 rounded-3xl"></video>
+        <div class="flex flex-col gap-2 xl:gap-4 max-w-6xl text-black">
+          <h2
+            class="text-[28px] xl:text-[40px] font-bold tracking-widest underline underline-offset-8"
+          >
+            Sistema de Iluminación RGB
+          </h2>
+          <p class="text-xl lg:text-2xl">
+            Equipada con un sistema de iluminación que añade ambiente y
+            diversión a tus sesiones de juego
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col lg:flex-row justify-around items-center">
+        <video
+          loop
+          autoplay
+          muted
+          playsinline
+          src="/silla675/polster.mp4"
+          class="w:1/2 md:w-4/5 lg:w-1/3 rounded-3xl lg:order-2"></video>
+        <div class="flex flex-col gap-2 xl:gap-4 max-w-6xl text-black">
+          <h2
+            class="text-[28px] xl:text-[40px] font-bold tracking-widest underline underline-offset-8"
+          >
+            Totalmente Ajustable
+          </h2>
+          <p class="text-xl lg:text-2xl">
+            La altura es completamente ajustable , y el reposacabezas incluye
+            una almohadilla que puedes adaptar a tu comodidad
+          </p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <div slot="footer" class="pb-10">
+    <a
+      class="border-[3px] border-black backdrop-blur-sm text-sm rounded font-bold text-black px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors"
+      href="#buysection"
+    >
+      COMPRAR AHORA</a
+    >
+  </div>
+
+  <div
+    slot="background"
+    class="bg-gradient-to-r from-gray-300 to-gray-200 object-center object-cover h-full w-full"
+  >
+  </div>
+</LongSection>

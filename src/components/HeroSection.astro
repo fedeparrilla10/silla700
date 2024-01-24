@@ -1,0 +1,28 @@
+---
+import Section from './Section.astro';
+---
+
+<Section
+  title="NACON PCCH-675RGB"
+  subtitle="Comodidad y estilo para tus partidas"
+  color="white"
+  price="Por 249.99 €"
+  pt="pt-16"
+  textSize="text-[40px]"
+  img="/silla675/naconlogo.svg"
+>
+  <div slot="footer" class="pb-20 md:pb-10">
+    <a
+      class="border-[3px] backdrop-blur-sm text-sm rounded font-medium text-white px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors"
+      href="#buysection"
+    >
+      COMPRAR AHORA</a
+    >
+  </div>
+
+  <img
+    slot="background"
+    class="object-cover h-full w-full opacity-50"
+    src="/silla675/fondomain.png"
+  />
+</Section>

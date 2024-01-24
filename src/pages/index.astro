@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import HeroSection from '../components/HeroSection.astro';
+import FirstSection from '../components/FirstSection.astro';
+import BuySection from '../components/BuySection.astro';
+import FirstVideo from '../components/FirstVideo.astro';
+import Specifications from '../components/Specifications.astro';
+---
+
+<Layout title="NAC-LAN-PCCH-675">
+  <main
+    class="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth"
+  >
+    <div class="lg:snap-center">
+      <HeroSection />
+    </div>
+    <div class="lg:snap-center">
+      <FirstSection />
+    </div>
+    <div class="lg:snap-center">
+      <FirstVideo />
+    </div>
+    <div class="lg:snap-center">
+      <Specifications />
+    </div>
+    <div class="lg:snap-center">
+      <BuySection />
+    </div>
+  </main>
+</Layout>

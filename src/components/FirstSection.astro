@@ -1,0 +1,49 @@
+---
+import LongSection from './LongSection.astro';
+import { firstSectionData } from '../data/first_section';
+---
+
+<LongSection
+  title="CALIDAD Y ESTILO"
+  subtitle="Diseñada especialmente para sesiones de juego prolongadas"
+  color="white"
+  pt="pt-5 xl:pt-20"
+  textSize="text-[36px] xl:text-[40px]"
+>
+  <article
+    slot="main"
+    class="text-gray-200 flex flex-col items-center justify-center"
+  >
+    <div
+      class="flex flex-col lg:flex-row justify-around gap-24 xl:gap-24 pt-10 pb-24 xl:pt-2 pb:4"
+    >
+      {
+        firstSectionData.map((product) => (
+          <div class="flex flex-col items-center justify-center gap-2">
+            <img
+              src={product.img}
+              alt={product.title}
+              class="w-[20rem] h-1/8"
+            />
+          </div>
+        ))
+      }
+    </div>
+  </article>
+
+  <div slot="footer" class="pb-10">
+    <a
+      class="border-[3px] backdrop-blur-sm text-sm rounded font-medium text-white px-12 py-2 inline-block hover:bg-white
+       hover:text-black transition-colors"
+      href="#buysection"
+    >
+      COMPRAR AHORA</a
+    >
+  </div>
+
+  <div
+    slot="background"
+    class="bg-gradient-to-r from-zinc-950 to-zinc-900 object-center object-cover h-full w-full"
+  >
+  </div>
+</LongSection>
