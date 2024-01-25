@@ -1,15 +1,15 @@
 export const specsImgs = [
   {
     id: 1,
-    name: 'Mando RGB',
-    subtitle: 'Inalámbrico',
-    img: '/silla675/remote.svg',
+    name: 'Ajuste',
+    subtitle: 'Mecánico',
+    img: '/silla700/chair.svg',
   },
   {
     id: 2,
-    name: 'Almohadilla',
-    subtitle: 'Adaptable',
-    img: '/silla675/comfort.svg',
+    name: 'Material',
+    subtitle: 'Aluminio',
+    img: '/silla700/magnet.svg',
   },
 ];
 
@@ -19,36 +19,36 @@ export const firstTable = [
     description: 'Silla gaming',
   },
   {
-    title: 'Anchura',
-    description: '53cm',
+    title: 'Dimensiones',
+    description: '73*56*128-133(cm)',
   },
   {
-    title: 'Altura',
-    description: '132cm',
+    title: 'Pistón',
+    description: 'Clase 4',
   },
   {
-    title: 'Profundidad',
-    description: '53cm',
+    title: 'Ajuste Lumbar',
+    description: 'Mecánico',
   },
   {
-    title: 'Color (por fabricante)',
-    description: 'Gris y multicolor',
+    title: 'Tamaño ruedas',
+    description: '65mm',
   },
   {
-    title: 'Peso',
-    description: '23kg',
+    title: 'Grados de inclinación',
+    description: '90-135º',
   },
   {
-    title: 'Ruedas',
-    description: '5',
+    title: 'Material de la base',
+    description: 'Aluminio',
   },
   {
-    title: 'Contenido',
-    description: 'x1 Silla Gaming',
+    title: 'Regulador de la inclinación',
+    description: 'Sí',
   },
   {
-    title: 'Diámetro de transductores',
-    description: '40mm',
+    title: 'Regulador de balanceo',
+    description: 'Sí',
   },
 ];
 

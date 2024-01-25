@@ -1,24 +1,24 @@
 export const firstSectionData = [
   {
     id: 1,
-    img: '/silla675/sillacolor.png',
+    img: '/silla700/1-700.png',
     title: '',
-    icon: '/silla675/ps5.svg',
+    icon: '/silla700/ps5.svg',
     extraIcons: [
       {
-        icon: '/silla675/ps4.svg',
+        icon: '/silla700/ps4.svg',
         class: 'w-8 h-8',
       },
       {
-        icon: '/silla675/switch.svg',
+        icon: '/silla700/switch.svg',
         class: 'w-8 h-8',
       },
       {
-        icon: '/silla675/pc.svg',
+        icon: '/silla700/pc.svg',
         class: 'w-8 h-8',
       },
       {
-        icon: '/silla675/mobile.svg',
+        icon: '/silla700/mobile.svg',
         class: 'w-8 h-8',
       },
     ],
@@ -26,24 +26,24 @@ export const firstSectionData = [
   },
   {
     id: 2,
-    img: '/silla675/sillalado2.png',
+    img: '/silla700/700-4.png',
     title: '',
-    icon: '/silla675/ps5.svg',
+    icon: '/silla700/ps5.svg',
     extraIcons: [
       {
-        icon: '/silla675/ps4.svg',
+        icon: '/silla700/ps4.svg',
         class: 'w-8 h-8',
       },
       {
-        icon: '/silla675/switch.svg',
+        icon: '/silla700/switch.svg',
         class: 'w-8 h-8',
       },
       {
-        icon: '/silla675/pc.svg',
+        icon: '/silla700/pc.svg',
         class: 'w-8 h-8',
       },
       {
-        icon: '/silla675/mobile.svg',
+        icon: '/silla700/mobile.svg',
         class: 'w-8 h-8',
       },
     ],

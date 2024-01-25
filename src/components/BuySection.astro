@@ -4,7 +4,7 @@ import { buySectionData, productData } from '../data/buy_section';
 ---
 
 <LongSection
-  title="NACON PCCH-675RGB"
+  title="NACON PCCH-700"
   subtitle="¡Hazte con ella en tu tienda favorita!"
   color="white"
   pt="pt-10"
@@ -21,7 +21,11 @@ import { buySectionData, productData } from '../data/buy_section';
       {
         productData.map((product) => (
           <div class="flex flex-col items-center justify-center bg-gradient-to-r from-zinc-950 to-zinc-900 rounded-2xl p-5 gap-5">
-            <img src={product.imgSrc} alt={product.title} class="w-80 h-96" />
+            <img
+              src={product.imgSrc}
+              alt={product.title}
+              class="w-80 h-[26rem]"
+            />
             <p class="text-xl">{product.title}</p>
             <div class="flex flex-row gap-3 md:gap-5 items-center justify-center">
               {product.buySectionStores.map((store) => (
@@ -46,7 +50,7 @@ import { buySectionData, productData } from '../data/buy_section';
           target="_blank"
         >
           <img
-            src="/silla675/facebook.svg"
+            src="/silla700/facebook.svg"
             alt="Facebook"
             class="w-8 md:w-10"
           />
@@ -57,22 +61,22 @@ import { buySectionData, productData } from '../data/buy_section';
           target="_blank"
         >
           <img
-            src="/silla675/instagram.svg"
+            src="/silla700/instagram.svg"
             alt="Instagram"
             class="w-8 md:w-10"
           />
         </a>
 
         <a href="https://twitter.com/NacongamingES?" target="_blank">
-          <img src="/silla675/x.svg" alt="Twitter" class="w-8 md:w-10" />
+          <img src="/silla700/x.svg" alt="Twitter" class="w-8 md:w-10" />
         </a>
 
         <a href="https://www.youtube.com/@NacongamingEspana" target="_blank">
-          <img src="/silla675/youtube.svg" alt="YouTube" class="w-8 md:w-10" />
+          <img src="/silla700/youtube.svg" alt="YouTube" class="w-8 md:w-10" />
         </a>
       </div>
       <div>
-        <img src="/silla675/naconlogo.svg" alt="RIG" class="w-16 md:w-24" />
+        <img src="/silla700/naconlogo.svg" alt="RIG" class="w-16 md:w-24" />
       </div>
     </div>
 

@@ -6,13 +6,13 @@ import { firstTable, specsImgs } from '../data/specifications.js';
 <LongSection
   title="ESPECIFICACIONES"
   subtitle="Detalles técnicos"
-  color="white"
+  color="black"
   pt="pt-10"
   textSize="text-[40px]"
 >
   <article
     slot="main"
-    class="text-white flex flex-col items-center justify-center gap-10 w-screen"
+    class="text-black flex flex-col items-center justify-center gap-10 w-screen"
   >
     <div class="flex flex-col md:flex-row gap-10 pt-10">
       {
@@ -34,7 +34,7 @@ import { firstTable, specsImgs } from '../data/specifications.js';
       }
     </div>
 
-    <div class="flex items-center gap-5 text-white text-md xl:text-[16px] p-10">
+    <div class="flex items-center gap-5 text-black text-md xl:text-[16px] p-10">
       <div class="table-1">
         <table class="table-auto">
           <tbody>
@@ -60,8 +60,7 @@ import { firstTable, specsImgs } from '../data/specifications.js';
 
   <div slot="footer" class="pb-10">
     <a
-      class="border-[3px] backdrop-blur-sm text-sm rounded font-medium text-white px-12 py-2 inline-block hover:bg-white
-       hover:text-black transition-colors"
+      class="border-[3px] border-black backdrop-blur-sm text-sm rounded font-bold text-black px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors"
       href="#buysection"
     >
       COMPRAR AHORA</a
@@ -70,7 +69,7 @@ import { firstTable, specsImgs } from '../data/specifications.js';
 
   <div
     slot="background"
-    class="bg-gradient-to-r from-zinc-950 to-zinc-900 object-center object-cover h-full w-full"
+    class="bg-gradient-to-r from-zinc-200 to-zinc-100 object-center object-cover h-full w-full"
   >
   </div>
 </LongSection>

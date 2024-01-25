@@ -6,5 +6,5 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   integrations: [tailwind()],
   site: 'https://fedeparrilla10.github.io',
-  base: '/silla675',
+  base: '/silla700',
 });
