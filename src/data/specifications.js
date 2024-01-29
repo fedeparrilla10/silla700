@@ -11,6 +11,30 @@ export const specsImgs = [
     subtitle: 'Aluminio',
     img: '/silla700/magnet.svg',
   },
+  {
+    id: 4,
+    name: 'Brazos',
+    subtitle: '4D',
+    img: '/silla700/armrest.svg',
+  },
+  {
+    id: 5,
+    name: 'Ruedas',
+    subtitle: '6,5MM',
+    img: '/silla700/wheels.svg',
+  },
+  {
+    id: 6,
+    name: 'Cojín',
+    subtitle: 'Cervical/Lumbar',
+    img: '/silla700/lumbar.svg',
+  },
+  {
+    id: 7,
+    name: 'Pistón',
+    subtitle: 'Clase 4',
+    img: '/silla700/piston.svg',
+  },
 ];
 
 export const firstTable = [
@@ -21,6 +45,10 @@ export const firstTable = [
   {
     title: 'Dimensiones',
     description: '73*56*128-133(cm)',
+  },
+  {
+    title: 'Uso recomendado',
+    description: 'Usuarios L/XL',
   },
   {
     title: 'Pistón',
@@ -49,40 +77,5 @@ export const firstTable = [
   {
     title: 'Regulador de balanceo',
     description: 'Sí',
-  },
-];
-
-export const secondTable = [
-  {
-    title: 'Inalámbrico',
-    description: 'Sí',
-  },
-  {
-    title: 'Compatibilidad HS',
-    description: 'PS5/PS4/Switch/PC/Tablet/Mobile',
-  },
-  {
-    title: 'Compatibilidad HX',
-    description: 'XBOX X-S/XBOX One/PC/Mobile',
-  },
-  {
-    title: 'Frecuencia de respuesta del micrófono',
-    description: '100 Hz - 10 kHz',
-  },
-  {
-    title: 'Micrófono plegable',
-    description: 'Sí',
-  },
-  {
-    title: 'Tipo de conexión',
-    description: 'Dongle USB C & Bluetooth',
-  },
-  {
-    title: 'Control de volumen',
-    description: 'Rueda de volumen en la oreja',
-  },
-  {
-    title: 'Duración de la batería',
-    description: '24h / 18h',
   },
 ];
