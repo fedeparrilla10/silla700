@@ -1,7 +1,7 @@
 export const firstSectionData = [
   {
     id: 1,
-    img: '/silla700/1-700.png',
+    img: '/silla700/personaliza.webp',
     class: 'w-16 h-16',
   },
   {

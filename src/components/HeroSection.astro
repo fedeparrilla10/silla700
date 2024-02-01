@@ -1,17 +1,28 @@
 ---
-import Section from './Section.astro';
+import LongSection from './LongSection.astro';
 ---
 
-<Section
+<LongSection
   title="PCCH-700"
   subtitle="Comodidad y estilo para tus partidas"
   color="white"
   price="PPDR 299.90 €"
-  pt="pt-16"
+  pt="pt-10"
   textSize="text-[40px]"
   img="/silla700/naconlogo.svg"
 >
-  <div slot="footer" class="pb-20 md:pb-10">
+  <article
+    slot="main"
+    class="text-gray-200 flex flex-col items-center justify-center"
+  >
+    <div
+      class="flex flex-col lg:flex-row justify-around items-center gap-24 xl:gap-24 pt-10 pb-24 xl:pt-2 pb:4"
+    >
+      <img src="/silla700/1-700.png" class="w-60 xl:w-72" />
+    </div>
+  </article>
+
+  <div slot="footer" class="pb-10 md:pb-10">
     <a
       class="border-[3px] backdrop-blur-sm text-sm rounded font-medium text-white px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors"
       href="#buysection"
@@ -25,4 +36,4 @@ import Section from './Section.astro';
     class="object-cover h-full w-full opacity-50"
     src="/silla700/nacon700.png"
   />
-</Section>
+</LongSection>
