@@ -1,46 +1,52 @@
 export const specsImgs = [
   {
     id: 1,
-    name: 'Ajuste',
-    subtitle: 'Mecánico',
+    name: 'Confort Ajustable',
+    subtitle: '',
     img: '/silla700/chair.svg',
   },
   {
     id: 2,
-    name: 'Material',
-    subtitle: 'Aluminio',
+    name: 'Base de Aluminio',
+    subtitle: '',
     img: '/silla700/magnet.svg',
   },
   {
     id: 4,
-    name: 'Brazos',
-    subtitle: '4D',
+    name: 'Brazos 4D',
+    subtitle: '',
     img: '/silla700/armrest.svg',
   },
   {
     id: 5,
-    name: 'Ruedas',
-    subtitle: '6,5MM',
+    name: 'Ruedas 65MM',
+    subtitle: '',
     img: '/silla700/wheels.svg',
   },
   {
     id: 6,
-    name: 'Cojín',
-    subtitle: 'Cervical/Lumbar',
+    name: 'Cojín Cervical Magnético',
+    subtitle: '',
     img: '/silla700/lumbar.svg',
   },
   {
     id: 7,
-    name: 'Pistón',
-    subtitle: 'Clase 4',
+    name: 'Pistón Clase 4',
+    subtitle: '',
     img: '/silla700/piston.svg',
+  },
+  {
+    id: 8,
+    name: 'Ajuste Lumbar Mecánico',
+    subtitle: '',
+    img: '/silla700/lumbar.svg',
   },
 ];
 
 export const firstTable = [
   {
     title: 'Tipo de dispositivo',
-    description: 'Silla gaming',
+    description: 'Silla Gaming Pro',
   },
   {
     title: 'Dimensiones',
@@ -48,7 +54,7 @@ export const firstTable = [
   },
   {
     title: 'Uso recomendado',
-    description: 'Usuarios L/XL',
+    description: 'Usuarios L-XL',
   },
   {
     title: 'Pistón',
